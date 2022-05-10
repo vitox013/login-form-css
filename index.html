@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>   
+    <div id="container">
+        
+
+        <main>
+            <header>
+                <img src="images/logo.svg" alt="">
+            </header>
+            <div id="boxlogin">
+                <div id="subboxlogin">
+                    <section id="header">
+                        <h2 class="poppins"> <img src="images/log-in.svg" alt=""> Faça seu login</h2>
+                        <p class="roboto">Entre com suas informações de cadastro</p>
+                    </section>
+                    
+                    <form action="" name="acesso">
+                        <div class="forms" id="boxemail">
+                            <label class="poppins" for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu email" required autocomplete="email">
+                        </div>
+
+                        <div class="forms" id="boxpassword">
+                            <label class="poppins" for="password">Senha</label>
+                            <div id="password-container">
+                                <input type="password" name="password" id="password" placeholder="Digite sua senha" required autocomplete="on"> <span id="eye"><img src="images/eye.svg" alt=""></span>
+                            </div>
+                        </div>
+
+                        <section id="remember-forgot">
+                            <label  class="roboto" id="remember" for="lembre-me">Lembre-me<input type="checkbox" name="lembre-me" id="lembre-me"><span id="checkmark"></span>
+                            </label>
+                            <p class="poppins"><strong >Esqueci minha senha</strong></p>
+                        </section>
+
+                        <section id="entrar">
+                            <button class="poppins">ENTRAR</button>
+                        </section>
+
+                        <section id="register">
+                            <span class="poppins">Não tem uma conta?</span><span class="poppins"><strong>Registre-se</strong></span>
+                        </section>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <img src="images/side-image.jpg" alt="">
+        </aside>
+    </div>
+</body>
+</html>

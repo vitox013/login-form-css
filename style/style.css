@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0;
+  }
+  /*============PRÉ-DEFINICOES=============*/
+  .poppins {
+      font-family: var(--poppins);
+  }
+
+  .roboto {
+      font-family: var(--roboto);
+  }
+
+  label {
+      margin-bottom: 10px;
+  }
+
+  section {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #d4ccb6;
+  }
+
+  strong {
+    color: #ffc632;
+  }
+
+  input {
+      background-color: #24221f;
+      border: 2px solid #afb6c2;
+      border-radius: 5px;
+      padding: 10px 0px;
+      padding-left: 40px;
+      outline: none;
+      font-family: var(--roboto);
+      margin-bottom: 20px;
+      color: white;
+  }
+
+  input:-ms-input-placeholder  {
+    font-size:15px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size:15px;
+  }
+
+  input:-moz-placeholder {
+    font-size:15px;
+  }
+
+  body {
+    background-color: #191816;
+    position: absolute;
+  }
+  /*============INICIO=============*/
+
+  #container {
+    display: flex;
+    color: #afb6c2;
+    height: 100vh;
+    width: 99.1vw;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 10rem;
+    height: 100vh;
+    }
+
+  header {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  #boxlogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #24221f;
+    width: 700px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  #subboxlogin {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      gap: 20px;
+      font-size: 1.3rem;
+  }
+
+  #header {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  #header h2 {
+    display: flex;
+    gap: 10px;
+  }
+
+  .forms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type=email] {
+    background: url('/images/mail.svg') no-repeat 10px;
+  }
+
+  input[type=email]:focus {
+    background: url('/images/mail-focus.svg') no-repeat 10px;
+    border-color: #ffc632;
+  }
+
+  #password-container{
+    display: flex;
+    position: relative;
+  }
+
+  input[type=password] {
+    background-image: url('/images/lock.svg');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    width: 100%;
+  }
+
+  input[type=password]:focus{
+    background: url('/images/lock-focus.svg') no-repeat 10px;
+    border-color: #ffc632;
+  }
+
+  #eye {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+
+    margin-top: 10px;
+    margin-left: 360px;
+  }
+
+  #remember-forgot {
+    justify-content: space-between;
+    font-size: 15px;
+  }
+
+  #remember {
+    display: flex;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    margin-right: 30px; 
+    cursor: pointer;
+}
+
+  #remember input {  
+    display: none;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+}
+
+#checkmark {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    height: 18px;
+    width: 20px;
+    background-color: var(--form-background);
+    border: 2px solid var(--text-base);
+    border-radius: 4px;
+}
+
+input[type=checkbox]:checked ~ #checkmark{
+    background-image: url('/images/check.svg');
+    background-repeat: no-repeat;
+    background-color: #ffc632;
+    border: 2px solid var(--primary-color);
+}
+
+#entrar button {
+    background-color: #ffc632;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+#register {
+    justify-content: center;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+aside {
+    flex: 1;
+}
+
+aside img {
+    height: 99.1vh;
+}
+
