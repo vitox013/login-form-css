@@ -84,7 +84,7 @@
   main {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 1;
     gap: 10rem;
     height: 100vh;
     }
@@ -200,7 +200,7 @@
 }
 
 input[type=checkbox]:checked ~ #checkmark{
-    background-image: url('/images/check.svg');
+    background-image: url('../images/check.svg');
     background-repeat: no-repeat;
     background-color: #ffc632;
     border: 2px solid var(--primary-color);
@@ -229,9 +229,7 @@ input[type=checkbox]:checked ~ #checkmark{
 
 aside {
     flex: 1;
-}
-
-aside img {
-    height: 99.1vh;
+    background: url('../images/side-image.jpg') no-repeat;
+    background-size: cover;
 }
 
