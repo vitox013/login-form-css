@@ -131,11 +131,11 @@
   }
 
   input[type=email] {
-    background: url('/images/mail.svg') no-repeat 10px;
+    background: url('../images/mail.svg') no-repeat 10px;
   }
 
   input[type=email]:focus {
-    background: url('/images/mail-focus.svg') no-repeat 10px;
+    background: url('../images/mail-focus.svg') no-repeat 10px;
     border-color: #ffc632;
   }
 
@@ -145,14 +145,14 @@
   }
 
   input[type=password] {
-    background-image: url('/images/lock.svg');
+    background-image: url('../images/lock.svg');
     background-repeat: no-repeat;
     background-position: 10px;
     width: 100%;
   }
 
   input[type=password]:focus{
-    background: url('/images/lock-focus.svg') no-repeat 10px;
+    background: url('../images/lock-focus.svg') no-repeat 10px;
     border-color: #ffc632;
   }
 
