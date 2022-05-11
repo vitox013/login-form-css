@@ -2,7 +2,7 @@
 
  Desafio de Login Form CSS da Rocketseat
  
- Caso queira acessar, é so clicar [**aqui**](vitox013.github.io/login-form-css/) que você será redirecionado para o site.
+ Caso queira acessar, é so clicar [**aqui**](https://vitox013.github.io/login-form-css/) que você será redirecionado para o site.
  <p>Ou só apontar a câmera do seu celular para esse QRCODE: </p>
  
  
