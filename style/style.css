@@ -156,15 +156,6 @@
     border-color: #ffc632;
   }
 
-  #eye {
-    position: absolute;
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-
-    margin-top: 10px;
-    margin-left: 360px;
-  }
 
   #remember-forgot {
     justify-content: space-between;
@@ -231,5 +222,346 @@ aside {
     flex: 1;
     background: url('../images/side-image.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
 }
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1537px) {
+
+  main {
+    gap: 30px;
+  }
+
+  #boxlogin {
+    width: 80%;
+    height: 80%;
+  }
+
+  #subboxlogin {
+    width: 60%;
+  }
+
+}
+
+@media only screen and (min-width: 922px) and (max-width: 1279px){
+
+  main {
+    gap: 10px;
+  }
+
+  #boxlogin {
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  span {
+    font-size: 10px;
+  }
+
+  #subboxlogin {
+    width: 60%;
+    font-size: 14px;
+  }
+  #remember-forgot {
+    font-size: 10px;
+  }
+
+  #remember-forgot p.poppins{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 921px){
+
+  main {
+    gap: 10px;
+    flex: 1;
+  }
+
+  #boxlogin {
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  span {
+    font-size: 14px;
+  }
+
+  #subboxlogin {
+    width: 60%;
+    font-size: 16px;
+  }
+  #remember-forgot {
+    font-size: 15px;
+  }
+
+  #remember-forgot p.poppins{
+    font-size: 13px;
+  }
+
+  aside {
+    flex: 0;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 499px){
+
+  main {
+    gap: 100px;
+    flex: 1;
+  }
+
+  #boxlogin {
+    padding: 0px;
+    width: 90%;
+    height: 70%;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 12px;
+  }
+
+  #subboxlogin {
+    width: 60%;
+    font-size: 14px;
+  }
+  #remember-forgot {
+    font-size: 12px;
+  }
+
+  #remember-forgot p.poppins{
+    font-size: 9px;
+  }
+
+  input[type=password] {
+    padding: 10px;
+    padding-left:40px;
+  }
+
+  input[type=email] {
+    padding: 10px;
+    padding-left:40px;
+  }
+
+  #entrar button {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  aside {
+    flex: 0;
+  }
+}
+
+
+
+@media only screen and (max-width: 375px){
+
+  main {
+    gap: 10px;
+    flex: 1;
+  }
+
+  #boxlogin {
+    padding: 0px;
+    width: 80%;
+    height: 80%;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  span {
+    font-size: 10px;
+  }
+
+  #subboxlogin {
+    width: 60%;
+    font-size: 14px;
+  }
+  #remember-forgot {
+    font-size: 10px;
+  }
+
+  #remember-forgot p.poppins{
+    font-size: 9px;
+  }
+
+  input[type=password] {
+    padding: 5px;
+    padding-left:40px;
+  }
+
+  input[type=email] {
+    padding: 5px;
+    padding-left:40px;
+  }
+
+  #entrar button {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  aside {
+    flex: 0;
+  }
+}
+
+@media only screen and (max-height: 488px){
+
+  input {
+    border: 1px solid #afb6c2;
+    border-radius: 5px;
+    padding: 10px 0px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+  }
+
+  img {
+    width: 5vh;
+  }
+
+  p {
+    font-size: 3vh;
+  }
+  h2 {
+    font-size: 4vh;
+  }
+  span {
+    font-size: 2vh;
+  }
+
+  section {
+    margin-bottom: 0px;
+  }
+
+
+  label {
+    margin-bottom: 2px;
+  }
+  input:-ms-input-placeholder  {
+    font-size:3vh;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size:3vh;
+  }
+
+  input:-moz-placeholder {
+    font-size:3vh;
+  }
+
+  main {
+    gap: 1px;
+  }
+
+  header {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  header img {
+    width: 10vh;
+    height: 20px;
+  }
+
+  #boxlogin {
+    padding: 0px;
+    width: 80%;
+    height: 95%;
+  }
+  
+  #subboxlogin {
+    width: 60%;
+    font-size: 2.5vh;
+    gap: 5px;
+  }
+ 
+  #checkmark {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    height: 2vh;
+    width: 2vh;
+    background-color: var(--form-background);
+    border: 1px solid var(--text-base);
+    border-radius: 1px;
+}
+
+  #remember {
+    padding-left: 10px;
+    margin-bottom: 2px;
+  }
+
+  input[type=email] {
+    padding: 2vh;
+    padding-left:20px;
+    background: url('../images/mail.svg') no-repeat 5px;
+    background-size: 10px;
+  }
+
+  input[type=email]:focus {
+    background: url('../images/mail-focus.svg') no-repeat 5px;
+    border-color: #ffc632;
+    background-size: 10px;
+  }
+
+  #password-container{
+    display: flex;
+    position: relative;
+  }
+
+  input[type=password] {
+    padding: 2vh;
+    padding-left:20px;
+    background-position: 5px;
+    background-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  input[type=password]:focus{
+    background-position: 5px;
+    border-color: #ffc632;
+    background-size: 10px;
+  }
+
+  #remember-forgot {
+    font-size: 2vh;
+    margin-top: 5px;
+  }
+
+  #remember-forgot p.poppins{
+    font-size: 2vh;
+  }
+
+  #entrar button {
+    padding: 2vh;
+    font-size: 2vh;
+    margin-bottom: 4px;
+  }
+
+  aside {
+    flex: 0;
+  }
+}
+
 
